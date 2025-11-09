@@ -1,0 +1,267 @@
+[22:54:34] [DEBUG]: Using proactor: IocpProactor
+[22:54:34] [DEBUG]: Using proactor: IocpProactor
+[22:54:34] [INFO]: server listening on 127.0.0.1:1488
+[22:54:34] [INFO]: > Websocket server started: ws://127.0.0.1::1488
+[22:54:35] [DEBUG]: = connection is CONNECTING
+[22:54:35] [DEBUG]: > GET /?encoding=json&v=9 HTTP/1.1
+[22:54:35] [DEBUG]: > Host: gateway.discord.gg
+[22:54:35] [DEBUG]: > Upgrade: websocket
+[22:54:35] [DEBUG]: > Connection: Upgrade
+[22:54:35] [DEBUG]: > Sec-WebSocket-Key: nHUvy08/ezirLyzVxdpLCA==
+[22:54:35] [DEBUG]: > Sec-WebSocket-Version: 13
+[22:54:35] [DEBUG]: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[22:54:35] [DEBUG]: > User-Agent: Python/3.13 websockets/15.0.1
+[22:54:35] [DEBUG]: < HTTP/1.1 101 Switching Protocols
+[22:54:35] [DEBUG]: < Date: Sun, 09 Nov 2025 04:55:00 GMT
+[22:54:35] [DEBUG]: < Connection: upgrade
+[22:54:35] [DEBUG]: < sec-websocket-accept: 1AqtGXHxTiTK7OP0tfmno8+ulLY=
+[22:54:35] [DEBUG]: < upgrade: websocket
+[22:54:35] [DEBUG]: < cf-cache-status: DYNAMIC
+[22:54:35] [DEBUG]: < Set-Cookie: __cf_bm=cmModjeufEkJT004W.5HWe98lnpo67ew1mdhtFFkdkA-1762664100-1.0.1.1-PGmyyWhsVZpAcwM7iObPZcmCzP67nKQeXNrxg11q8NNM9x9wUdocS3D0aIYzJzxCkSojQjTcpsbl8TXWxtNBDSEMHDZUBz7RwyE_7KFqSIA; path=/; expires=Sun, 09-Nov-25 05:25:00 GMT; domain=.discord.gg; HttpOnly; Secure; SameSite=None
+[22:54:35] [DEBUG]: < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rbpY3PTz%2BDMSJ4Urfxh1K1fMkrGRC7w24mPq11cpjkTs4OfP3Q3K8IkATv84%2FR0Q3IvtGrrxhQQHNubQWbmnZiWvcvSlWKyPoZoV2HJj%2BcVVkgdhdXPDKQvC7%2B5fCVdMwj4V8Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+[22:54:35] [DEBUG]: < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[22:54:35] [DEBUG]: < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+[22:54:35] [DEBUG]: < X-Content-Type-Options: nosniff
+[22:54:35] [DEBUG]: < Server: cloudflare
+[22:54:35] [DEBUG]: < CF-RAY: 99bab722ba3b5222-MEX
+[22:54:35] [DEBUG]: = connection is OPEN
+[22:54:35] [DEBUG]: < TEXT '{"t":null,"s":null,"op":10,"d":{"heartbeat_inte...{\\"micros\\":0.0}]"]}}' [128 bytes]
+[22:54:35] [DEBUG]: > TEXT '{"op": 2, "d": {"token": "OTg2MDA1MTM5MzU5OTM2N...main": "discord.com"}}}' [401 bytes]
+[22:54:35] [INFO]: Sent client identification
+[22:54:35] [DEBUG]: > TEXT '{"op": 37, "d": {"subscriptions": {"13854916160...d_member_lists": []}}}}' [358 bytes]
+[22:54:35] [INFO]: Sent client subscriptions
+[22:54:35] [INFO]: You must be on the chilli hub discord server and Voraz (see repo)
+[22:54:35] [INFO]: Listening new messages...
+[22:54:35] [INFO]: Starting heartbeat every 41.2 seconds...
+[22:54:35] [DEBUG]: > TEXT '{"op": 1, "d": null}' [20 bytes]
+[22:54:35] [DEBUG]: < TEXT '{"t":null,"s":null,"op":11,"d":null}' [36 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"READY","s":1,"op":0,"d":{"linked_users":[...ending_payments":null}}' [8727318 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"SESSIONS_REPLACE","s":2,"op":0,"d":[{"sta..._at":1762657868593}]}]}' [886 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":3,"op":0,"d":{"webhoo..."1401550662335991908"}}' [1186 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":4,"op":0,"d":{"webhoo..."1409004288042078362"}}' [1546 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"THREAD_LIST_SYNC","s":5,"op":0,"d":{"thre..."1401550662335991908"}}' [2842 bytes]
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [DEBUG]: < TEXT '{"t":"GUILD_CREATE","s":6,"op":0,"d":{"embedded..."incidents_data":null}}' [221683 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"THREAD_LIST_SYNC","s":7,"op":0,"d":{"thre..."1385491616013221990"}}' [930012 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":8,"op":0,"d":{"webhoo..."1385491616013221990"}}' [1674 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":9,"op":0,"d":{"webhoo..."1401550662335991908"}}' [1228 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":10,"op":0,"d":{"webho..."1385491616013221990"}}' [1675 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":11,"op":0,"d":{"type"..."1401328159651004558"}}' [1515 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":12,"op":0,"d":{"webho..."1409004288042078362"}}' [1550 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_REACTION_ADD","s":13,"op":0,"d":{..."1282950529064108096"}}' [810 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":14,"op":0,"d":{"type"..."1421983311689158788"}}' [921 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":15,"op":0,"d":{"webho..."1401550662335991908"}}' [1228 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":16,"op":0,"d":{"webho..."1385491616013221990"}}' [1675 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":17,"op":0,"d":{"webho..."1409004288042078362"}}' [1698 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":18,"op":0,"d":{"type"..."1401328159651004558"}}' [1515 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":19,"op":0,"d":{"webho..."1385491616013221990"}}' [1517 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"TYPING_START","s":20,"op":0,"d":{"user_id..."1385491616013221990"}}' [947 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":21,"op":0,"d":{"type"..."1401328159651004558"}}' [1941 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":22,"op":0,"d":{"webho..."1385491616013221990"}}' [1517 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":23,"op":0,"d":{"webho..."1102791364455964785"}}' [1588 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":24,"op":0,"d":{"type"..."1401328159651004558"}}' [1966 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":25,"op":0,"d":{"webho..."1409004288042078362"}}' [1544 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":26,"op":0,"d":{"webho..."1401550662335991908"}}' [1183 bytes]
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":27,"op":0,"d":{"webho..."1385491616013221990"}}' [1675 bytes]
+[22:54:38] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":28,"op":0,"d":{"webho..."1409004288042078362"}}' [1540 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":29,"op":0,"d":{"webho..."1102791364455964785"}}' [1553 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":30,"op":0,"d":{"webho..."1102791364455964785"}}' [1553 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":31,"op":0,"d":{"type"..."1401328159651004558"}}' [1485 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":32,"op":0,"d":{"type"..."1385491616013221990"}}' [1301 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":33,"op":0,"d":{"webho..."1395227585243254794"}}' [1074 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":34,"op":0,"d":{"webho..."1409004288042078362"}}' [1540 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":35,"op":0,"d":{"webho..."1102791364455964785"}}' [1578 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":36,"op":0,"d":{"type"..."1401328159651004558"}}' [1485 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":37,"op":0,"d":{"type"..."1401328159651004558"}}' [1484 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":38,"op":0,"d":{"webho..."1385491616013221990"}}' [1678 bytes]
+[22:54:39] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":39,"op":0,"d":{"webho..."1409004288042078362"}}' [1700 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":40,"op":0,"d":{"type"..."1401328159651004558"}}' [1484 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"CHANNEL_UPDATE","s":41,"op":0,"d":{"versi...3949413376","flags":0}}' [571 bytes]
+[22:54:39] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":42,"op":0,"d":{"webho..."1401550662335991908"}}' [1232 bytes]
+[22:54:39] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:40] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":43,"op":0,"d":{"webho..."1385491616013221990"}}' [1520 bytes]
+[22:54:40] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":44,"op":0,"d":{"webho..."1385491616013221990"}}' [1529 bytes]
+[22:54:40] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:40] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:40] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":45,"op":0,"d":{"user...393297926209405000"}]}}' [595 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":46,"op":0,"d":{"webho..."1385491616013221990"}}' [1678 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":47,"op":0,"d":{"type"...:"630549513949413376"}}' [2149 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":48,"op":0,"d":{"webho..."1409004288042078362"}}' [1536 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":49,"op":0,"d":{"type"...:"630549513949413376"}}' [2174 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":50,"op":0,"d":{"webho..."1409004288042078362"}}' [1694 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":51,"op":0,"d":{"webho..."1102791364455964785"}}' [1918 bytes]
+[22:54:41] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":52,"op":0,"d":{"webho..."1401550662335991908"}}' [1187 bytes]
+[22:54:41] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":53,"op":0,"d":{"type"..."1401328159651004558"}}' [1464 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":54,"op":0,"d":{"type"..."1401328159651004558"}}' [1485 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":55,"op":0,"d":{"webho..."1385491616013221990"}}' [1517 bytes]
+[22:54:42] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":56,"op":0,"d":{"webho..."1385491616013221990"}}' [1517 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":57,"op":0,"d":{"type"..."1401328159651004558"}}' [1464 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":58,"op":0,"d":{"webho..."1401550662335991908"}}' [1196 bytes]
+[22:54:42] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:42] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:42] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":59,"op":0,"d":{"user...dnd"},"activities":[]}}' [228 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":60,"op":0,"d":{"user...dnd"},"activities":[]}}' [228 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":61,"op":0,"d":{"user...dnd"},"activities":[]}}' [228 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":62,"op":0,"d":{"type"..."1401328159651004558"}}' [1485 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":63,"op":0,"d":{"webho..."1409004288042078362"}}' [1537 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":64,"op":0,"d":{"webho..."1102791364455964785"}}' [1575 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":65,"op":0,"d":{"user...dnd"},"activities":[]}}' [212 bytes]
+[22:54:42] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":66,"op":0,"d":{"type"..."1401328159651004558"}}' [1481 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":67,"op":0,"d":{"webho..."1102791364455964785"}}' [1918 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":68,"op":0,"d":{"webho..."1102791364455964785"}}' [1575 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":69,"op":0,"d":{"type"..."1401328159651004558"}}' [1481 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"CONTENT_INVENTORY_INBOX_STALE","s":70,"op...fresh_after_ms":30000}}' [82 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":71,"op":0,"d":{"webho..."1102791364455964785"}}' [1588 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":72,"op":0,"d":{"webho..."1102791364455964785"}}' [1691 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":73,"op":0,"d":{"webho..."1102791364455964785"}}' [1889 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":74,"op":0,"d":{"webho..."1102791364455964785"}}' [1580 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":75,"op":0,"d":{"webho..."1102791364455964785"}}' [1576 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":76,"op":0,"d":{"webho..."1102791364455964785"}}' [2160 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":77,"op":0,"d":{"webho..."1102791364455964785"}}' [2337 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":78,"op":0,"d":{"webho..."1102791364455964785"}}' [1836 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":79,"op":0,"d":{"webho..."1102791364455964785"}}' [1758 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":80,"op":0,"d":{"webho..."1102791364455964785"}}' [1570 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":81,"op":0,"d":{"webho..."1102791364455964785"}}' [1590 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":82,"op":0,"d":{"webho..."1102791364455964785"}}' [2271 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":83,"op":0,"d":{"webho..."1102791364455964785"}}' [1582 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":84,"op":0,"d":{"webho..."1102791364455964785"}}' [1587 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":85,"op":0,"d":{"webho..."1102791364455964785"}}' [1786 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":86,"op":0,"d":{"webho..."1102791364455964785"}}' [2111 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":87,"op":0,"d":{"webho..."1102791364455964785"}}' [1585 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":88,"op":0,"d":{"webho..."1102791364455964785"}}' [1586 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":89,"op":0,"d":{"webho..."1102791364455964785"}}' [1710 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":90,"op":0,"d":{"webho..."1102791364455964785"}}' [1847 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":91,"op":0,"d":{"webho..."1102791364455964785"}}' [1574 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":92,"op":0,"d":{"webho..."1102791364455964785"}}' [1666 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":93,"op":0,"d":{"webho..."1102791364455964785"}}' [1680 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":94,"op":0,"d":{"webho..."1385491616013221990"}}' [1675 bytes]
+[22:54:43] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":95,"op":0,"d":{"type"..."1401328159651004558"}}' [1480 bytes]
+[22:54:43] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":96,"op":0,"d":{"webho..."1385491616013221990"}}' [1521 bytes]
+[22:54:44] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":97,"op":0,"d":{"type"..."1421983311689158788"}}' [1920 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":98,"op":0,"d":{"webho..."1385491616013221990"}}' [1511 bytes]
+[22:54:44] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:44] [DEBUG]: < TEXT '{"t":"CHANNEL_UPDATE","s":99,"op":0,"d":{"versi...7481364703","flags":0}}' [649 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":100,"op":0,"d":{"webh..."1401550662335991908"}}' [1230 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":101,"op":0,"d":{"webh..."1385491616013221990"}}' [1667 bytes]
+[22:54:44] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:44] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":102,"op":0,"d":{"type..."1401328159651004558"}}' [1481 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":103,"op":0,"d":{"webh..."1409004288042078362"}}' [1544 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":104,"op":0,"d":{"webh..."1102791364455964785"}}' [1577 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":105,"op":0,"d":{"type..."1421983311689158788"}}' [2153 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":106,"op":0,"d":{"webh..."1385491616013221990"}}' [1676 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":107,"op":0,"d":{"webh..."1385491616013221990"}}' [1667 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":108,"op":0,"d":{"type..."1401328159651004558"}}' [1939 bytes]
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":109,"op":0,"d":{"webh..."1401550662335991908"}}' [1188 bytes]
+[22:54:44] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:44] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":110,"op":0,"d":{"type..."1401328159651004558"}}' [1964 bytes]
+[22:54:45] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":111,"op":0,"d":{"webh..."1102791364455964785"}}' [1577 bytes]
+[22:54:45] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":112,"op":0,"d":{"webh..."1401550662335991908"}}' [1220 bytes]
+[22:54:45] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:45] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":113,"op":0,"d":{"type..."1401328159651004558"}}' [1492 bytes]
+[22:54:45] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":114,"op":0,"d":{"webh..."1409004288042078362"}}' [1705 bytes]
+[22:54:46] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":115,"op":0,"d":{"webh..."1385491616013221990"}}' [1676 bytes]
+[22:54:46] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:46] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":116,"op":0,"d":{"type..."1421983311689158788"}}' [927 bytes]
+[22:54:46] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":117,"op":0,"d":{"webh..."1385491616013221990"}}' [1517 bytes]
+[22:54:46] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:46] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":118,"op":0,"d":{"use...393297926209405000"}]}}' [596 bytes]
+[22:54:46] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":119,"op":0,"d":{"type..."1401328159651004558"}}' [1492 bytes]
+[22:54:46] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":120,"op":0,"d":{"webh..."1385491616013221990"}}' [1521 bytes]
+[22:54:46] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[22:54:46] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":121,"op":0,"d":{"...lse,"channel_id":null}}' [903 bytes]
+[22:54:46] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":122,"op":0,"d":{"webh..."1401550662335991908"}}' [1231 bytes]
+[22:54:46] [ERROR]: Failed to check message: '<' not supported between instances of 'NoneType' and 'float'
+Traceback (most recent call last):
+  File "<string>", line 53, in message_check
+TypeError: '<' not supported between instances of 'NoneType' and 'float'

@@ -1,0 +1,130 @@
+[23:04:24] [DEBUG]: Using proactor: IocpProactor
+[23:04:24] [DEBUG]: Using proactor: IocpProactor
+[23:04:24] [INFO]: server listening on 127.0.0.1:1488
+[23:04:24] [INFO]: > Websocket server started: ws://127.0.0.1::1488
+[23:04:24] [DEBUG]: = connection is CONNECTING
+[23:04:24] [DEBUG]: > GET /?encoding=json&v=9 HTTP/1.1
+[23:04:24] [DEBUG]: > Host: gateway.discord.gg
+[23:04:24] [DEBUG]: > Upgrade: websocket
+[23:04:24] [DEBUG]: > Connection: Upgrade
+[23:04:24] [DEBUG]: > Sec-WebSocket-Key: Fz+/3RO4QPl56mW5Tfy+YQ==
+[23:04:24] [DEBUG]: > Sec-WebSocket-Version: 13
+[23:04:24] [DEBUG]: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[23:04:24] [DEBUG]: > User-Agent: Python/3.13 websockets/15.0.1
+[23:04:25] [DEBUG]: < HTTP/1.1 101 Switching Protocols
+[23:04:25] [DEBUG]: < Date: Sun, 09 Nov 2025 05:04:50 GMT
+[23:04:25] [DEBUG]: < Connection: upgrade
+[23:04:25] [DEBUG]: < sec-websocket-accept: U7616WGuEBsuZ5kFLuegNQjBmV8=
+[23:04:25] [DEBUG]: < upgrade: websocket
+[23:04:25] [DEBUG]: < cf-cache-status: DYNAMIC
+[23:04:25] [DEBUG]: < Set-Cookie: __cf_bm=Ge5mQeiAa_kZVoUt90f_X_hSccvKfruZ2G_7o37kUBs-1762664690-1.0.1.1-O4jgXCSicDck4beqmWR5vkrDMecHMfar02avnIOnTYsrdwJviXnlaRFjunKn63PSbqSz8Ttilj50K5K0d06cKUlRR56Ny1ibb77lcMVAJQk; path=/; expires=Sun, 09-Nov-25 05:34:50 GMT; domain=.discord.gg; HttpOnly; Secure; SameSite=None
+[23:04:25] [DEBUG]: < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=s3lsH68fvsHRth5DIUW16bi6CBFQ2F7H%2F3bRijXSiidtwzWijAkAJT%2FJiSCOzUSgMX2ShryeuOR1a%2Bccoq%2BdD4Dp4QK9z9lKofTe7tcw4df0dJyx0roMhVKbcVgNOvhuWNW%2FWQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+[23:04:25] [DEBUG]: < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[23:04:25] [DEBUG]: < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+[23:04:25] [DEBUG]: < X-Content-Type-Options: nosniff
+[23:04:25] [DEBUG]: < Server: cloudflare
+[23:04:25] [DEBUG]: < CF-RAY: 99bac588787e5222-MEX
+[23:04:25] [DEBUG]: = connection is OPEN
+[23:04:25] [DEBUG]: < TEXT '{"t":null,"s":null,"op":10,"d":{"heartbeat_inte...{\\"micros\\":0.0}]"]}}' [128 bytes]
+[23:04:25] [DEBUG]: > TEXT '{"op": 2, "d": {"token": "OTg2MDA1MTM5MzU5OTM2N...main": "discord.com"}}}' [401 bytes]
+[23:04:25] [INFO]: Sent client identification
+[23:04:25] [DEBUG]: > TEXT '{"op": 37, "d": {"subscriptions": {"13854916160...d_member_lists": []}}}}' [358 bytes]
+[23:04:25] [INFO]: Sent client subscriptions
+[23:04:25] [INFO]: You must be on the chilli hub discord server and Voraz (see repo)
+[23:04:25] [INFO]: Listening new messages...
+[23:04:25] [INFO]: Starting heartbeat every 41.2 seconds...
+[23:04:25] [DEBUG]: > TEXT '{"op": 1, "d": null}' [20 bytes]
+[23:04:25] [DEBUG]: < TEXT '{"t":null,"s":null,"op":11,"d":null}' [36 bytes]
+[23:04:28] [DEBUG]: < TEXT '{"t":"READY","s":1,"op":0,"d":{"analytics_token...","voice_states":[]}]}}' [8722901 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"SESSIONS_REPLACE","s":2,"op":0,"d":[{"sta...eb"},"activities":[]}]}' [886 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":3,"op":0,"d":{"type":..."1401328159651004558"}}' [1993 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"THREAD_LIST_SYNC","s":4,"op":0,"d":{"thre..."1401550662335991908"}}' [2842 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"GUILD_CREATE","s":5,"op":0,"d":{"premium_...394958144647467078"}]}}' [222934 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"THREAD_LIST_SYNC","s":6,"op":0,"d":{"thre..."1385491616013221990"}}' [930012 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":7,"op":0,"d":{"type":..."1401328159651004558"}}' [1975 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":8,"op":0,"d":{"webhoo..."1102791364455964785"}}' [1678 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":9,"op":0,"d":{"type":..."1401328159651004558"}}' [2000 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":10,"op":0,"d":{"webho..."1421983311689158788"}}' [843 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":11,"op":0,"d":{"webho..."1401550662335991908"}}' [1195 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":12,"op":0,"d":{"webho..."1385491616013221990"}}' [1524 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":13,"op":0,"d":{"webho..."1385491616013221990"}}' [1520 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":14,"op":0,"d":{"user...402418714716143646"}]}}' [875 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":15,"op":0,"d":{"user...402418714716143646"}]}}' [875 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":16,"op":0,"d":{"webho..."1409004288042078362"}}' [1543 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":17,"op":0,"d":{"webho..."1385491616013221990"}}' [1679 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":18,"op":0,"d":{"webho..."1385491616013221990"}}' [1679 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":19,"op":0,"d":{"webho..."1401550662335991908"}}' [1233 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":20,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":21,"op":0,"d":{"webho..."1385491616013221990"}}' [1659 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":22,"op":0,"d":{"webho..."1402505796188766229"}}' [2042 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":23,"op":0,"d":{"type"..."1401328159651004558"}}' [1483 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":24,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":25,"op":0,"d":{"webho..."1421983311689158788"}}' [841 bytes]
+[23:04:29] [INFO]: Sent Mieteteira Bicicleteira in category 10m_plus: 156.0 M/s
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":26,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":27,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":28,"op":0,"d":{"webho..."1401550662335991908"}}' [1234 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":29,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":30,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":31,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":32,"op":0,"d":{"webho..."1385491616013221990"}}' [1679 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":33,"op":0,"d":{"type"..."1401328159651004558"}}' [1482 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":34,"op":0,"d":{"webho..."1408787111716323468"}}' [2314 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":35,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":36,"op":0,"d":{"webho..."1102791364455964785"}}' [1663 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":37,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":38,"op":0,"d":{"user...393297926209405000"}]}}' [604 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":39,"op":0,"d":{"webho..."1409004288042078362"}}' [1699 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":40,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:29] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":41,"op":0,"d":{"webho..."1385491616013221990"}}' [1673 bytes]
+[23:04:29] [INFO]: Sent Los Combinasionas in category 10m_plus: 120.0 M/s
+[23:04:30] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":42,"op":0,"d":{"webho..."1401550662335991908"}}' [1228 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":43,"op":0,"d":{"webho..."1385491616013221990"}}' [1522 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":44,"op":0,"d":{"webho..."1409004288042078362"}}' [1543 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":45,"op":0,"d":{"webho..."1421983311689158788"}}' [845 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":46,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":47,"op":0,"d":{"webho..."1401550662335991908"}}' [1188 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"CHANNEL_CREATE","s":48,"op":0,"d":{"versi...3949413376","flags":0}}' [491 bytes]
+[23:04:30] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":49,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":50,"op":0,"d":{"m..."1436825756901576724"}}' [1151 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":51,"op":0,"d":{"m..."1436825756901576724"}}' [1150 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":52,"op":0,"d":{"webho..."1385491616013221990"}}' [1677 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":53,"op":0,"d":{"webho..."1401550662335991908"}}' [1232 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":54,"op":0,"d":{"webho..."1409004288042078362"}}' [1552 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":55,"op":0,"d":{"type"...:"630549513949413376"}}' [2050 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":56,"op":0,"d":{"webho..."1385491616013221990"}}' [1677 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":57,"op":0,"d":{"webho..."1385491616013221990"}}' [1673 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":58,"op":0,"d":{"webho..."1385491616013221990"}}' [1522 bytes]
+[23:04:31] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":59,"op":0,"d":{"webho..."1409004288042078362"}}' [1552 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":60,"op":0,"d":{"webho..."1385491616013221990"}}' [1522 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":61,"op":0,"d":{"webho..."1401550662335991908"}}' [1188 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":62,"op":0,"d":{"webho..."1408787111716323468"}}' [2324 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":63,"op":0,"d":{"webho..."1102791364455964785"}}' [1833 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":64,"op":0,"d":{"webho..."1102791364455964785"}}' [1653 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":65,"op":0,"d":{"m..."1436786014617075713"}}' [1164 bytes]
+[23:04:32] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":66,"op":0,"d":{"user...d_at":1762664697806}]}}' [297 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":67,"op":0,"d":{"type"..."1401328159651004558"}}' [1976 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":68,"op":0,"d":{"webho..."1409004288042078362"}}' [1540 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":69,"op":0,"d":{"webho..."1385491616013221990"}}' [1670 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":70,"op":0,"d":{"type"..."1401328159651004558"}}' [2001 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":71,"op":0,"d":{"webho..."1401550662335991908"}}' [1223 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":72,"op":0,"d":{"type"..."1401328159651004558"}}' [1480 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":73,"op":0,"d":{"type"..."1401328159651004558"}}' [1484 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":74,"op":0,"d":{"webho..."1409004288042078362"}}' [1539 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":75,"op":0,"d":{"type"..."1401328159651004558"}}' [1941 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":76,"op":0,"d":{"type"..."1401328159651004558"}}' [1966 bytes]
+[23:04:33] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":77,"op":0,"d":{"webho..."1385491616013221990"}}' [1520 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":78,"op":0,"d":{"webho..."1385491616013221990"}}' [1515 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":79,"op":0,"d":{"webho..."1102791364455964785"}}' [1665 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":80,"op":0,"d":{"webho..."1401550662335991908"}}' [1186 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":81,"op":0,"d":{"type"..."1365082079628365905"}}' [1553 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"CHANNEL_UNREAD_UPDATE","s":82,"op":0,"d":...089350033633181746"}]}}' [6408 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":83,"op":0,"d":{"webho..."1385491616013221990"}}' [1670 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":84,"op":0,"d":{"type"..."1401328159651004558"}}' [1941 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":85,"op":0,"d":{"type"..."1401328159651004558"}}' [1966 bytes]
+[23:04:34] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":86,"op":0,"d":{"webho..."1409004288042078362"}}' [1540 bytes]
+[23:04:35] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":87,"op":0,"d":{"webho..."1385491616013221990"}}' [1678 bytes]
+[23:04:35] [INFO]: Sent Mieteteira Bicicleteira in category 10m_plus: 26.0 M/s
+[23:04:35] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":88,"op":0,"d":{"webho..."1409004288042078362"}}' [1693 bytes]
+[23:04:35] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":89,"op":0,"d":{"webho..."1401550662335991908"}}' [1233 bytes]
+[23:04:36] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":90,"op":0,"d":{"type"..."1401328159651004558"}}' [1482 bytes]

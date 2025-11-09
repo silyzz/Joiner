@@ -1,0 +1,35 @@
+[22:46:40] [DEBUG]: Using proactor: IocpProactor
+[22:46:40] [DEBUG]: Using proactor: IocpProactor
+[22:46:40] [DEBUG]: = connection is CONNECTING
+[22:46:40] [DEBUG]: > GET /?encoding=json&v=9 HTTP/1.1
+[22:46:40] [DEBUG]: > Host: gateway.discord.gg
+[22:46:40] [DEBUG]: > Upgrade: websocket
+[22:46:40] [DEBUG]: > Connection: Upgrade
+[22:46:40] [DEBUG]: > Sec-WebSocket-Key: rMOdoaMTnYN5/fUVVEuikw==
+[22:46:40] [DEBUG]: > Sec-WebSocket-Version: 13
+[22:46:40] [DEBUG]: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[22:46:40] [DEBUG]: > User-Agent: Python/3.13 websockets/15.0.1
+[22:46:40] [DEBUG]: < HTTP/1.1 101 Switching Protocols
+[22:46:40] [DEBUG]: < Date: Sun, 09 Nov 2025 04:47:05 GMT
+[22:46:40] [DEBUG]: < Connection: upgrade
+[22:46:40] [DEBUG]: < sec-websocket-accept: c/eeTFpS8+OxOTiupV7aXLI2TFg=
+[22:46:40] [DEBUG]: < upgrade: websocket
+[22:46:40] [DEBUG]: < cf-cache-status: DYNAMIC
+[22:46:40] [DEBUG]: < Set-Cookie: __cf_bm=MFCMcz7ZqrPMtEOPOrsMqp9UWvZ4RUaS7skisfUp4kw-1762663625-1.0.1.1-YtVQGGD_z7P.nh6V70mjjU4BiSwlbvvvEFn1lMiS8ArWLKzZvc9403e8qoCY1YRq2Ly80BNSmWwrBKdnsujybOBjuajDfroCTRPyZ484L.g; path=/; expires=Sun, 09-Nov-25 05:17:05 GMT; domain=.discord.gg; HttpOnly; Secure; SameSite=None
+[22:46:40] [DEBUG]: < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=BP8H9gXGUoatlpFNBRY4njKJRtQdyjdCCGjvAjp5madZoNJ7IzqlLjXg%2BHpK6sg6QzaT22oVPlKaE%2B5l%2FzwLHBEKvfscDSikJvNodZC2Ape8A%2B3OjQ54aAfU2HYYDc87zx%2FgfA%3D%3D"}],"group":"cf-nel","max_age":604800}
+[22:46:40] [DEBUG]: < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[22:46:40] [DEBUG]: < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+[22:46:40] [DEBUG]: < X-Content-Type-Options: nosniff
+[22:46:40] [DEBUG]: < Server: cloudflare
+[22:46:40] [DEBUG]: < CF-RAY: 99baab8c5f195222-MEX
+[22:46:40] [DEBUG]: = connection is OPEN
+[22:46:40] [DEBUG]: < TEXT '{"t":null,"s":null,"op":10,"d":{"heartbeat_inte...{\\"micros\\":0.0}]"]}}' [128 bytes]
+[22:46:40] [DEBUG]: > TEXT '{"op": 2, "d": {"token": "OTg2MDA1MTM5MzU5OTM2N...main": "discord.com"}}}' [401 bytes]
+[22:46:40] [INFO]: Sent client identification
+[22:46:40] [DEBUG]: > TEXT '{"op": 37, "d": {"subscriptions": {"13854916160...d_member_lists": []}}}}' [358 bytes]
+[22:46:40] [INFO]: Sent client subscriptions
+[22:46:40] [INFO]: You must be on the chilli hub discord server and Voraz (see repo)
+[22:46:40] [INFO]: Listening new messages...
+[22:46:40] [INFO]: Starting heartbeat every 41.2 seconds...
+[22:46:40] [DEBUG]: > TEXT '{"op": 1, "d": null}' [20 bytes]
+[22:46:40] [DEBUG]: < TEXT '{"t":null,"s":null,"op":11,"d":null}' [36 bytes]

@@ -1,0 +1,83 @@
+[22:52:22] [DEBUG]: Using proactor: IocpProactor
+[22:52:22] [DEBUG]: Using proactor: IocpProactor
+[22:52:22] [INFO]: server listening on 127.0.0.1:1488
+[22:52:22] [INFO]: > Websocket server started: ws://127.0.0.1::1488
+[22:52:22] [DEBUG]: = connection is CONNECTING
+[22:52:22] [DEBUG]: > GET /?encoding=json&v=9 HTTP/1.1
+[22:52:22] [DEBUG]: > Host: gateway.discord.gg
+[22:52:22] [DEBUG]: > Upgrade: websocket
+[22:52:22] [DEBUG]: > Connection: Upgrade
+[22:52:22] [DEBUG]: > Sec-WebSocket-Key: ZmmMTpMjnfO6eK6kGzVGcw==
+[22:52:22] [DEBUG]: > Sec-WebSocket-Version: 13
+[22:52:22] [DEBUG]: > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+[22:52:22] [DEBUG]: > User-Agent: Python/3.13 websockets/15.0.1
+[22:52:22] [DEBUG]: < HTTP/1.1 101 Switching Protocols
+[22:52:22] [DEBUG]: < Date: Sun, 09 Nov 2025 04:52:47 GMT
+[22:52:22] [DEBUG]: < Connection: upgrade
+[22:52:22] [DEBUG]: < sec-websocket-accept: Zd3xPVi37FGnOO4D7nj5O+ujxcc=
+[22:52:22] [DEBUG]: < upgrade: websocket
+[22:52:22] [DEBUG]: < cf-cache-status: DYNAMIC
+[22:52:22] [DEBUG]: < Set-Cookie: __cf_bm=8fn.oFalfNTi8cEMh1AdXsnO5M_TxlKfOf3iMhyjg.E-1762663967-1.0.1.1-dM11BH60dmUdPsZQqr2WmRepRVxYPwjFqmYLCPhuNk8gdrYv4UyW_sb3gXSNNxNplDrsrISkJ62lsEVXljOoTUMMx.skGPFTAbRazzoH9Cw; path=/; expires=Sun, 09-Nov-25 05:22:47 GMT; domain=.discord.gg; HttpOnly; Secure; SameSite=None
+[22:52:22] [DEBUG]: < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2B7sUb0E0QfUB980LvEC%2F7ZY257Z8e7BsZ4UOqKCv%2BG%2BkN9JUDOb%2FymfhTparAjKcoVZx3KWhUpULiCnQNflk1j4SEplDNkt8ygTvOYyC29vAzzF%2BZq4qlquyjyxeNyQgMq%2F0VA%3D%3D"}],"group":"cf-nel","max_age":604800}
+[22:52:22] [DEBUG]: < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[22:52:22] [DEBUG]: < Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+[22:52:22] [DEBUG]: < X-Content-Type-Options: nosniff
+[22:52:22] [DEBUG]: < Server: cloudflare
+[22:52:22] [DEBUG]: < CF-RAY: 99bab3e42cdb5222-MEX
+[22:52:22] [DEBUG]: = connection is OPEN
+[22:52:22] [DEBUG]: < TEXT '{"t":null,"s":null,"op":10,"d":{"heartbeat_inte...{\\"micros\\":0.0}]"]}}' [128 bytes]
+[22:52:22] [DEBUG]: > TEXT '{"op": 2, "d": {"token": "OTg2MDA1MTM5MzU5OTM2N...main": "discord.com"}}}' [401 bytes]
+[22:52:22] [INFO]: Sent client identification
+[22:52:22] [DEBUG]: > TEXT '{"op": 37, "d": {"subscriptions": {"13854916160...d_member_lists": []}}}}' [358 bytes]
+[22:52:22] [INFO]: Sent client subscriptions
+[22:52:22] [INFO]: You must be on the chilli hub discord server and Voraz (see repo)
+[22:52:22] [INFO]: Listening new messages...
+[22:52:22] [INFO]: Starting heartbeat every 41.2 seconds...
+[22:52:22] [DEBUG]: > TEXT '{"op": 1, "d": null}' [20 bytes]
+[22:52:22] [DEBUG]: < TEXT '{"t":null,"s":null,"op":11,"d":null}' [36 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"READY","s":1,"op":0,"d":{"notes":{"986005...nsented":true}},"v":9}}' [8762180 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":2,"op":0,"d":{"webhoo..."1102791364455964785"}}' [1940 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"THREAD_LIST_SYNC","s":3,"op":0,"d":{"thre..."1401550662335991908"}}' [2842 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"GUILD_CREATE","s":4,"op":0,"d":{"emojis":..."1394950191911534596"}}' [221122 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"THREAD_LIST_SYNC","s":5,"op":0,"d":{"thre..."1385491616013221990"}}' [930012 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":6,"op":0,"d":{"webhoo..."1409004288042078362"}}' [1542 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"CHANNEL_PINS_UPDATE","s":7,"op":0,"d":{"l..."1398144296384991262"}}' [170 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":8,"op":0,"d":{"type":..."1401328159651004558"}}' [1944 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":9,"op":0,"d":{"webhoo..."1401550662335991908"}}' [1179 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":10,"op":0,"d":{"type"..."1401328159651004558"}}' [1970 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":11,"op":0,"d":{"type"..."1401328159651004558"}}' [1484 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":12,"op":0,"d":{"type"..."1401328159651004558"}}' [1464 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":13,"op":0,"d":{"webho..."1401550662335991908"}}' [1187 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":14,"op":0,"d":{"type"..."1401328159651004558"}}' [1485 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":15,"op":0,"d":{"type"..."1401328159651004558"}}' [1514 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":16,"op":0,"d":{"webho..."1385491616013221990"}}' [1672 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":17,"op":0,"d":{"type"..."1401328159651004558"}}' [1481 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":18,"op":0,"d":{"webho..."1401550662335991908"}}' [1226 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":19,"op":0,"d":{"type"..."1401328159651004558"}}' [1463 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":20,"op":0,"d":{"webho..."1102791364455964785"}}' [1852 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":21,"op":0,"d":{"webho..."1385491616013221990"}}' [1519 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":22,"op":0,"d":{"webho..."1409004288042078362"}}' [1687 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":23,"op":0,"d":{"type"..."1401328159651004558"}}' [1461 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":24,"op":0,"d":{"webho..."1385491616013221990"}}' [1672 bytes]
+[22:52:26] [INFO]: Sent Los Combinasionas in category 10m_plus: 15.0 M/s
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":25,"op":0,"d":{"webho..."1385491616013221990"}}' [1517 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":26,"op":0,"d":{"webho..."1408787111716323468"}}' [2320 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":27,"op":0,"d":{"type"..."1401328159651004558"}}' [1969 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":28,"op":0,"d":{"type"..."1401328159651004558"}}' [1994 bytes]
+[22:52:26] [DEBUG]: < TEXT '{"t":"CHANNEL_UPDATE","s":29,"op":0,"d":{"versi...7847979050","flags":0}}' [809 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":30,"op":0,"d":{"type"..."1401328159651004558"}}' [1462 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"VOICE_STATE_UPDATE","s":31,"op":0,"d":{"m...lse,"channel_id":null}}' [856 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"VOICE_CHANNEL_START_TIME_UPDATE","s":32,"..."1289988589052104846"}}' [143 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"VOICE_CHANNEL_STATUS_UPDATE","s":33,"op":..."1289988589052104846"}}' [129 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":34,"op":0,"d":{"webho..."1409004288042078362"}}' [1546 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":35,"op":0,"d":{"type"..."1401328159651004558"}}' [1509 bytes]
+[22:52:27] [DEBUG]: < TEXT '{"t":"MESSAGE_UPDATE","s":36,"op":0,"d":{"type"..."1401328159651004558"}}' [1482 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":37,"op":0,"d":{"webho..."1385491616013221990"}}' [1529 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":38,"op":0,"d":{"webho..."1385491616013221990"}}' [1521 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":39,"op":0,"d":{"webho..."1401550662335991908"}}' [1185 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":40,"op":0,"d":{"type"..."1401328159651004558"}}' [1183 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":41,"op":0,"d":{"user...ine"},"activities":[]}}' [634 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":42,"op":0,"d":{"user...ine"},"activities":[]}}' [634 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":43,"op":0,"d":{"user...ine"},"activities":[]}}' [634 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"PRESENCE_UPDATE","s":44,"op":0,"d":{"user...ine"},"activities":[]}}' [634 bytes]
+[22:52:28] [DEBUG]: < TEXT '{"t":"MESSAGE_CREATE","s":45,"op":0,"d":{"webho..."1401550662335991908"}}' [1184 bytes]
