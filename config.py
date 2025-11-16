@@ -1,6 +1,6 @@
 
 
-DISCORD_TOKEN = "OTg2MDA1MTM5MzU5OTM2NTcz.G2_xOd.nzizMGTvtjr064qSuM1VewoacBvdQJuuWBQZu8"
+DISCORD_TOKEN = ""
 # discord token / дискорд токен
 # гайд/guide: https://www.youtube.com/results?search_query=how+to+get+discord+token
 
@@ -66,6 +66,7 @@ CHILLI_HUB_CHANNELS_ID = {
     "notasnek_1m-10m": ["1404759535293431849"], # 1m - 10m notasnek discord channel
     "notasnek_10m_plus": ["1404759584450678865"] # 10m+ notasnek discord channel
 }
+
 
 
 
